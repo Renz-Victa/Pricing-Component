@@ -1,0 +1,68 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(196, 137, 255);
+}
+
+.header {
+    background: rgb(196, 113, 255);
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+a {
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    font-style: italic;
+}
+
+.cta-banner {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
+.cta-button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: rgb(183, 110, 255);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
