@@ -3,7 +3,7 @@ html {
 }
 
 .footer {
-    padding: 10px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,4 +38,28 @@ a:hover {
 p {
     display: flex;
     justify-content: center;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3rem;
+    color: rgb(0, 0, 0);
+    background: var(--primary);
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    color: greenyellow;
 }
