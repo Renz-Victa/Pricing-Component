@@ -16,3 +16,11 @@ A reusable pricing component buitl to display subscription tiers in a responsive
 - Reusable component structure
 - Clean and modern UI
 - Responsive Layout
+
+## Built With
+
+- Tailwind CSS
+- Flexbox
+- HTML
+- JavaScript
+- CSS
