@@ -1,4 +1,4 @@
-## Overview
+## Pricing Component
 
-This project is a frontend pricing component for a music service. It built it to practice structuring layouts, styling UI elements, and creating a responsive design that feels like a real product. 
+A reusable pricing component buitl to display subscription tiers in a responsive and user-friendly layout. 
 
