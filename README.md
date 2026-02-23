@@ -10,3 +10,9 @@ A reusable pricing component buitl to display subscription tiers in a responsive
 - Toggle between billing options
 - Provide a clear call-to-action for conversions
 - Maintain responsive design across desktops and mobile devices
+
+## 🧩 Key Features
+
+- Reusable component structure
+- Clean and modern UI
+- Responsive Layout
