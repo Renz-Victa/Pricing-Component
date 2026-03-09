@@ -45,16 +45,6 @@ p {
     font-size: 0.8em;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 3rem;
-    color: rgb(0, 0, 0);
-    background: var(--primary);
-}
-
 input {
     padding: 10px 20px;
     border-radius: 10px;
