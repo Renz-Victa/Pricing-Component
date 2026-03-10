@@ -12,8 +12,6 @@ html {
 
 .header {
     background: rgb(196, 113, 255);
-    align-items: center;
-    justify-content: center;
     font-family: monospace;
 }
 
@@ -26,13 +24,6 @@ a {
 
 a:hover {
     color: aquamarine;
-}
-
-.logo {
-    color: rebeccapurple;
-    font-size: 32px;
-    font-weight: 900;
-    font-style: italic;
 }
 
 p {
