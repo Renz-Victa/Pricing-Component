@@ -15,10 +15,6 @@ html {
     font-family: monospace;
 }
 
-a:hover {
-    color: aquamarine;
-}
-
 p {
     display: flex;
     justify-content: center;
