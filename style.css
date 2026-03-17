@@ -33,12 +33,3 @@ input {
 .submit:hover {
     color: greenyellow;
 }
-
-.signupForm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 50px auto;
-}

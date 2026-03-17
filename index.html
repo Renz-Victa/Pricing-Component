@@ -40,7 +40,7 @@
             <div class="bg-gray-100 ring-1 ring-gray-300 grid grid-rows-[1fr_auto] rounded-xl p-8 gap-6">
                 <div class="grid grid-rows-[auto_auto_auto_1fr] gap-y-2">
                     <h2 class="text-lg font-semibold text0indigo-600">Listener</h2>
-                    <p class="text-4xl font-bold text-gray-900">$0
+                    <p class="text-4xl font-bold text-gray-900">R0
                         <span class="text-base font-medium text-gray-500">/month</span>
                     </p>
                     <p>
@@ -64,7 +64,7 @@
                     Most Popular</div>
                 <div class="grid grid-rows-[auto_auto_auto_1fr] gap-y-2">
                     <h2 class="text-lg font-semibold text-fuchsia-200">Premium</h2>
-                    <p class="text-4xl font-bold text-white">$9.99
+                    <p class="text-4xl font-bold text-white">R9.99
                         <span class="text-base font-medium text-fuchsia-300">/month</span>
                     </p>
                     <p class="text-gray-300">
@@ -91,7 +91,7 @@
                 <div class="grid grid-rows-[auto_auto_auto_1fr] gap-y-2">
                     <h2 class="text-lg font-semibold text-indigo-600">Family</h2>
                     <p class="text-4xl font-bold text-gray-900">
-                        $14.99<span class="text-base font-medium text-gray-500">/month</span>
+                        R14.99<span class="text-base font-medium text-gray-500">/month</span>
                     </p>
                     <p class="text-gray-600">
                         Enjoy all of the features with a plan for up to 6 family memners.
@@ -179,17 +179,38 @@
         </div>
     </section>
 
-    <form id="signupForm justify-center align-center flex">
-        <input class="Signup p-3 py-3 rounded-2xl g-5 mb-5 outline-none" type="email" id="email"
-            placeholder="Enter your email">
-        <small class="error"></small>
-        <button class="submit">Sign Up</button>
-        <a href="#"
-            class="rounded-full bg-green/50 px-5 py-0.5 text-md/6 font-medium text-black flex justify-center align-center mb-10">Announcing
+    <form id="signupForm" class="flex flex-col items-center justify-center">
+        <div class="items-stretch mb-5">
+            <input class="Signup flex-1 p-3 py-3 rounded-2xl g-5 mb-5 outline-none" type="email" id="email"
+                placeholder="Enter your email">
+            <small class="error"></small>
+            <button class="submit flex-1">Sign Up</button>
+        </div>
+        <a href="#" class="rounded-full bg-green/50 px-5 py-0.5 text-md/6 font-medium text-black mb-10">Announcing
             our next
             round of funding &rarr;
         </a>
     </form>
+
+    <section>
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+            <summary>Can I change my plan at any time?</summary>
+            <p>Yes, you can upgrade or downgrade your plan at any time from your account at any time form your account
+                settings. Upgrades take effect immediately; downgrades apply at the start of your next billing cycle.
+            </p>
+        </details>
+        <details>
+            <summary>What payment methods do you accept?</summary>
+            <p>We accept all major credit and debit cards (Visa, Mastercard), Paypal, and bank transfers.</p>
+        </details>
+        <details>
+            <summary>What happens when I reach my usage limit?</summary>
+            <p>On paid plans you will reeive an email notification at 50% and 100% of your monthly limit. By default,
+                usage pauses at teh limit - you can opt in to automatic top-ups in your billing settings. </p>
+        </details>
+    </section>
 
     <div class="footer bg-gradient-to-r from-fuchsia-300 to-indigo-800">
         <ul class="middle-links">
