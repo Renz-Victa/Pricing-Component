@@ -1,15 +1,11 @@
-const form = document.getElementById("signupForm");
-const emailInput = document.getElementById("email");
-const error = document.querySelector(":error");
+const x = "declared outside function";
 
-form.addEventListener("submit", e => {
-    e.preventDefault();
+exampleFunction();
 
-    if (!emailInput.ariaValueMax.includes("@")) {
-        error.textContent = "Please enter a valid email.";
-    } else {
-        error.textContent = "Please enter a valid email.";
-        alert("Signup successful!");
-        form.reset();
-    }
-});
+function exampleFunction() {
+    console.log("Inside function");
+    console.log(x);
+}
+
+console.log("Outside function");
+console.log(x);
